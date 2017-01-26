@@ -1,0 +1,25 @@
+{
+  "title": "Webpack Playground",
+  "name": "Webpack Playground",
+  "description": "Play Hard. Go Pro.",
+  "version": "0.0.1",
+  "license": "MIT",
+  "repository": "none",
+  "author": {
+    "name": "David Hellmann",
+    "email": "davidhellmann.com@gmail.com",
+    "url": "http://davidhellmann.com"
+  },
+  "scripts": {
+    "start": "webpack --config webpack.config.js"
+  },
+  "devDependencies": {
+    "webpack": "^2.2.0"
+  },
+  "dependencies": {},
+  "licenses": [
+    {
+      "type": "MIT"
+    }
+  ]
+}
