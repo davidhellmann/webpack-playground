@@ -1,6 +1,6 @@
 {
   "title": "Webpack Playground",
-  "name": "Webpack Playground",
+  "name": "WebpackPlayground",
   "description": "Play Hard. Go Pro.",
   "version": "0.0.1",
   "license": "MIT",
@@ -11,12 +11,14 @@
     "url": "http://davidhellmann.com"
   },
   "scripts": {
-    "start": "webpack --config webpack.config.js"
+    "build": "webpack"
   },
   "devDependencies": {
     "webpack": "^2.2.0"
   },
-  "dependencies": {},
+  "dependencies": {
+    "lodash": "^4.17.4"
+  },
   "licenses": [
     {
       "type": "MIT"
